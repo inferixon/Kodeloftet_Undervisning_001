@@ -27,10 +27,11 @@ main,
 }
 
 .eyebrow {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.6rem;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  font-size: 0.82rem;
+  font-weight: 700;
   color: #5a6880;
 }
 
@@ -47,8 +48,10 @@ main {
 }
 
 h1 {
-  margin: 0;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin: 0 0 0.7rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  text-wrap: balance;
 }
 
 h2,
